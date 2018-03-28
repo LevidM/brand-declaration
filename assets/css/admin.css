@@ -448,3 +448,7 @@ gallery.html css
 .am-accordion-title{
   font-size: 14px;
 }
+
+.am-radio-inline,.am-checkbox-inline{
+  padding-top:0!important;
+}
