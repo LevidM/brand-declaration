@@ -191,12 +191,27 @@
                                     </div>
                                 </div> 
 
+
                                 <div class="am-form-group">
                                     <label for="user-text" class="am-u-sm-2 am-form-label">成立时间</label>
-                                    <div class="am-u-sm-2  am-u-end">
+                                    <div class="am-u-sm-2 ">
                                         <input type="text" class="am-form-field" placeholder="请点击选择时间" data-am-datepicker readonly required />
                                     </div>
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">是否上市</label>
+                                    <div class="am-u-sm-2">
+                                        <label class="am-radio-inline">
+                                            <input type="radio" name="radio1" value="" data-am-ucheck>是 
+                                        </label>
+                                        <label class="am-radio-inline">
+                                            <input type="radio" name="radio1" value="" data-am-ucheck>否 
+                                        </label>
+                                    </div>
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">上市代码</label>
+                                    <div class="am-u-sm-2  am-u-end">
+                                        <input type="text" id="user-text" placeholder="上市代码"  >
+                                    </div>
                                 </div>
+
 
                                 <div class="am-form-group">
                                     <label for="user-text" class="am-u-sm-2 am-form-label">主营业务</label>
@@ -273,12 +288,19 @@
                                 </div>
 
                                 <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">下属所有产品/服务品牌名称</label>
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">品牌销售范围（国内）</label>
                                     <div class="am-u-sm-10  am-u-end">
-                                        <input type="text" id="user-text" placeholder="下属所有产品/服务品牌名称"  >
+                                        <textarea type="text" rows="1" id="user-intro" placeholder="请列出国内品牌销售主要区域"  ></textarea>
                                     </div>
                                 </div>
 
+                                <div class="am-form-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">品牌销售范围（国外）</label>
+
+                                    <div class="am-u-sm-7  am-u-end">
+                                        <textarea type="text" rows="1" id="user-intro" id="user-text" placeholder="请列出国外品牌销售主要区域"  ></textarea>
+                                    </div>
+                                </div>
                                 <div class="am-form-group">
                                     <label for="user-text" class="am-u-sm-2 am-form-label">注册商标名称</label>
                                     <div class="am-u-sm-2 ">
@@ -319,6 +341,9 @@
                                 <div class="am-form-group">
                                     <label for="user-text" class="am-u-sm-2 am-form-label">质量奖</label>
                                     <div class="am-u-sm-8  am-u-end">
+                                        <label class="am-checkbox-inline">
+                                            <input type="checkbox"  value="" data-am-ucheck>省政府质量奖
+                                          </label>
                                         <label class="am-checkbox-inline">
                                             <input type="checkbox"  value="" data-am-ucheck>市长质量奖
                                           </label>
